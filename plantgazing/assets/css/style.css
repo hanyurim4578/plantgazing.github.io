@@ -1,0 +1,37 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+/* 상단바 */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainclick {
+  display: flex;
+  gap: 30px;
+}
+
+/* 연상 작품 이미지 가로 배치 */
+.yeonsang-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.yeonsang-images img {
+  width: 300px;
+  height: auto;
+}
+
+
+
+
+
+@media screen and (max-width: 704px) {
+}

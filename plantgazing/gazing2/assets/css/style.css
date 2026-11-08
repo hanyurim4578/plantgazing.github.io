@@ -1,0 +1,32 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+
+
+/* 상단바 */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainclick {
+  display: flex;
+  gap: 30px;
+}
+
+/* 작품 이미지 */
+.yeonsang-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+@media screen and (max-width: 704px) {
+}
